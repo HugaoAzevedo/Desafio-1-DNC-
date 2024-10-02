@@ -4,30 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lading Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <!--CABEÇALHO-->
     <header>
-        <h1>Tradição em projetos de arquitetura</h1>
-        <h2>Arquitetura residencial e comercial. </h2>
+        
+        <div id="title-header">
+            <h1 class="text-header" >Tradição em projetos de arquitetura</h1>
+            <h2 class="text-header" >Arquitetura residencial e comercial. </h2>
+        </div>    
+              
     </header>
-    <section>
     <!--SEÇÃO DE INFORMAÇOES-->
-        <h3>850</h3>
-        <p >empreendimentos construídos</p>
- 
-        <h3>40</h3>
-        <p >anos de mercado e experiência </p>
+    <section>
+        <ul id="tittle-sections">
 
-        <h3>2,000,000 </h3>
-        <p >m² em projetos construídos</p>
+            <h3 class="h3sections" >850</h3>
+            <p >empreendimentos construídos</p>
+            <h3 class="h3sections" >40</h3>
+            <p >anos de mercado e experiência </p>
+            <h3 class="h3sections" >2,000,000 </h3>
+            <p >m² em projetos construídos</p>
 
+        </ul>
     </section>
      <!--CONTEUDO PRINCIPAL-->
     <main>
 
          <article>
-            <figure></figure>
             <h2>Arquitetos com História e Experiência.</h2>
             <p>Nós realizamos desde 2002 projetos e gerenciamento de obras. 
                 Com mais de 800 projetos e 2.000.000 de m² construídos, 
@@ -35,16 +45,19 @@
                 seus clientes, criando projetos personalizados, unindo a 
                 tradição e a modernidade em nossos projetos.</p>
          </article>
+         <aside>
+            <img src="imagens/imagen.svg" alt="ERRO">
+         </aside>
 
     </main>
     <!--RODAPE-->
     <footer>
  
-        <h2></h2>
+        <h2 id="tittle-footer">Conheça mais sobre nossos serviços:</h2>
         <form>
             <input type="text" placeholder="Nome">
-            <input type="email" placeholder="Email">
-            <input type="submit" value="Fale Conosco">
+            <input type="email" placeholder="Email"><br>
+            <button  type="submit" >Fale Conosco</button>
         </form>
 
     </footer>
