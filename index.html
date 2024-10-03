@@ -13,53 +13,60 @@
 </head>
 <body>
     <!--CABEÇALHO-->
+   
     <header>
         
-        <div id="title-header">
-            <h1 class="text-header" >Tradição em projetos de arquitetura</h1>
-            <h2 class="text-header" >Arquitetura residencial e comercial. </h2>
-        </div>    
-              
+            <h1 id="tittle-header">Tradição em projetos de arquitetura</h1>
+            <h2 id="subtittle-header">Arquitetura residencial e comercial. </h2> 
+            
     </header>
     <!--SEÇÃO DE INFORMAÇOES-->
+    
     <section>
-        <ul id="tittle-sections">
 
-            <h3 class="h3sections" >850</h3>
-            <p >empreendimentos construídos</p>
-            <h3 class="h3sections" >40</h3>
-            <p >anos de mercado e experiência </p>
-            <h3 class="h3sections" >2,000,000 </h3>
-            <p >m² em projetos construídos</p>
+            <h3 class="tittle-sections" >850</h3>
+           
+            <p class="subtittle-sections">empreendimentos construídos</p>
+           
+            <h3 class="tittle-sections" >40</h3>
+           
+            <p class="subtittle-sections">anos de mercado e experiência </p>
+           
+            <h3 class="tittle-sections" >2,000,000 </h3>
+           
+            <p class="subtittle-sections">m² em projetos construídos</p>
 
-        </ul>
     </section>
-     <!--CONTEUDO PRINCIPAL-->
+    <!--CONTEUDO PRINCIPAL-->
+    
     <main>
 
          <article>
-            <h2>Arquitetos com História e Experiência.</h2>
-            <p>Nós realizamos desde 2002 projetos e gerenciamento de obras. 
-                Com mais de 800 projetos e 2.000.000 de m² construídos, 
-                tendo como principal proposta transformar em realidade os sonhos de 
-                seus clientes, criando projetos personalizados, unindo a 
+            <h2 id="article-tittle" >Arquitetos com História e Experiência.</h2>
+            <p id="article-subtitte" >Nós realizamos desde 2002 projetos e gerenciamento de obras. <br>
+                Com mais de 800 projetos e 2.000.000 de m² construídos, <br>
+                tendo como principal proposta transformar em realidade os sonhos de <br>
+                seus clientes, criando projetos personalizados, unindo a <br>
                 tradição e a modernidade em nossos projetos.</p>
          </article>
-         <aside>
+         <aside id="aside-img" >
             <img src="imagens/imagen.svg" alt="ERRO">
          </aside>
 
     </main>
     <!--RODAPE-->
+    
     <footer>
  
         <h2 id="tittle-footer">Conheça mais sobre nossos serviços:</h2>
-        <form>
-            <input type="text" placeholder="Nome">
-            <input type="email" placeholder="Email"><br>
-            <button  type="submit" >Fale Conosco</button>
+        <form action="https://api.sheetmonkey.io/form/catxpUr2qmP1SqeqjX2TWB" method="post" >
+            <input type="text" placeholder="Nome" name="Nome" required > <br>
+            <input type="email" placeholder="Email" name="Email" required > <br>
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+            <button type="submit" >Fale Conosco</button> 
         </form>
 
     </footer>
+    <script src="functions.js"></script>
 </body>
 </html>
